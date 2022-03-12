@@ -21,7 +21,6 @@
     height: 40%;
     text-align: center;
     color: white;
-    background-color: red;
   
     
 }
@@ -294,9 +293,7 @@ footer p{
         line-height: 1.5rem;
     }
     
-    #section3{
-        border: 2px solid red ;
-    }
+    
     .projects{
         height: 40%;
         display: flex;
@@ -324,9 +321,16 @@ footer p{
         justify-content: end;
         position: relative;
         height: 100vh;
+        %
     }
     .box{
         display: flex;
+    }
+    #section4{
+        position: relative;
+        bottom:5%
+
+    
     }
     
 }
