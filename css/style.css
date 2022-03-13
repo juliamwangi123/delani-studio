@@ -321,7 +321,7 @@ footer p{
     }
     .box{
         height: 50%;
-        width: 45%;
+        width: 50%;
     }
     .portfolio{
         height: 80%;
@@ -340,7 +340,6 @@ footer p{
 
     }
     .part2{
-        border: 2px solid yellow;
         height: 75%;
     }
     .part1{
@@ -350,17 +349,35 @@ footer p{
        display: flex;
        flex-wrap: wrap;
     }
-    form input{
+    form{
+        position: relative;
+    }
+    form input:nth-child(1){
         width: 50%;
-        display: block;
+        position: absolute;
+        left: -1%;
+        top: 20%;
+
+    }
+    form input:nth-child(2){
+        width: 50%;
+        position: absolute;
+        left: -4%;
+        top: 30%;
 
     }
 
-    form textarea{
-        width: 20%;
+    textarea{
+        width: 30%;
         position: relative;
-        left: 10%;
-        display: inline;
+        left: 60%;
+        height: 10%;
+    }
+
+    #section4 h3{
+        font-size: 12px;
+        position: relative;
+        top: -40%;
     }
    
 }
