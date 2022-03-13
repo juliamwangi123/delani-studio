@@ -21,7 +21,6 @@
     height: 40%;
     text-align: center;
     color: white;
-    background-color: red;
   
     
 }
@@ -294,9 +293,7 @@ footer p{
         line-height: 1.5rem;
     }
     
-    #section3{
-        border: 2px solid red ;
-    }
+  
     .projects{
         height: 40%;
         display: flex;
@@ -316,7 +313,6 @@ footer p{
     .row{
         width: 70%;
         height: 50%;
-        border: 2px solid magenta;
        
     }
     .box{
@@ -325,7 +321,6 @@ footer p{
     }
     .portfolio{
         height: 80%;
-        border: 2px solid blue;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -334,8 +329,6 @@ footer p{
     #section4{
         position:relative;
         height: 30vh;
-        /* margin-top: 150px; */
-        border: 2px solid tomato;
 
 
     }
