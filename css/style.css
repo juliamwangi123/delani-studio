@@ -105,6 +105,7 @@
 #section3{
     height: 100vh;
     text-align: center;
+    position: relative;
 }
 #section3 h3{
     margin-top: 30px;
@@ -121,6 +122,14 @@
     align-content: center;
     position: relative;
     top: 10%;
+
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    top: 0%;
 
 }
 .title{
