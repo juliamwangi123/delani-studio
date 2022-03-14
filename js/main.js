@@ -1,17 +1,5 @@
 $(document).ready(function(){
     
-// $(".overlay").hide();
-    // $(".innerbox").hover(function(){
-    //     $(this).fadeTo("slow",0.6)
-    //     $(".overlay").show();},
-    //     function(){
-    //         $(this).fadeTo("slow",1)
-    //         $(".overlay").hide();
-
-
-        
-
-    // });
 
 showToogle();
 showImg();
@@ -72,13 +60,24 @@ let showToogle = ()=>{
  }
 
 //hover effect
-let hover = ()=>{
-    let box = $(".innerbox")
+let hover = (project)=>{
+    this.project = project
+
+    let box = $(".innerbox");
+    let  text = $(".showProject");
+
+
     box.hover(function(){
-        let  text = $(".showProject");
+
         $(this).fadeTo("slow", 0.5)
-        text.show()
+        text.toggle()
     }, function(){
+
         $(this).fadeTo("fast", 1)
+        text.hide()
     })
 }
+
+
+
+
