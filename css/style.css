@@ -119,33 +119,7 @@
 .part2{
     height: 45%;
 }
-/* .projects{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    position: relative;
-    top: 10%;
 
-}
-.description{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    position: absolute;
-    top: 20%;
-   
-}
-.descrption1{
-    width: 20%;
-}
-.imge1{
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.class1{
-    position: relative;
-} */
 
   
   #design, #development, #product{
@@ -290,6 +264,13 @@ footer p{
    font-size: 13px;
    text-align:center;
    margin: 10px;
+}
+.button{
+    position: relative;
+    left:45%;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
 }
 
 @media screen and (max-width:768px){
