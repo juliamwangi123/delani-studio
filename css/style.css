@@ -427,4 +427,7 @@ footer p{
    #design-image{
        height: 100%;
    }
+   .do h3{
+       display: none;
+   }
 }
