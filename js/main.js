@@ -29,14 +29,15 @@ let showToogle = ()=>{
         let imgId = this.id
         if(imgId ==="design-image"){
             $("#design").show();
-            $("#design-image").hide();
-        }if(imgId === "pic2"){
-            $(".design2").show()
-            $("#pic2").hide()
+            $("#design-image").hide();},
+
+        }if(imgId === "development-image"){
+            $("#development").show()
+            $("#development-image").hide();
         }
-        if(imgId === "pic3"){
-            $(".design3").show()
-            $("#pic3").hide()
+        if(imgId === "product-image"){
+            $("#product").show()
+            $("#product-image").hide()
            }
 
     });
