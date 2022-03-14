@@ -107,10 +107,13 @@
     text-align: center;
     position: relative;
 }
-#section3 h3{
-    margin-top: 30px;
+.do h3{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
 }
-.part1{
+
+#work{
     height: 40%;
 }
 .part2{
@@ -143,20 +146,12 @@
 .class1{
     position: relative;
 } */
-.what-we-do{
-    text-align: center;
-    padding-top: 40px;
-  }
-  .what-we-do .headings{
-    padding-bottom: 20px;
-    font-size: 18px;
-  }
+
+  
   #design, #development, #product{
     display: none;
   }
-  #wedo p{
-    font-size: 10px;
-  }
+  
   .title{
     font-size: 12px;
   }
@@ -380,6 +375,7 @@ footer p{
         flex-direction: column;
 
     }
+    
     #section4{
         position:relative;
         height: 30vh;
@@ -389,7 +385,7 @@ footer p{
     .part2{
         height: 75%;
     }
-    .part1{
+    #work{
         height: 20%;
     }
     .logo{
@@ -426,5 +422,27 @@ footer p{
         position: relative;
         top: -40%;
     }
-   
+    #work{
+        height: 40%;
+    }
+    .do{
+        height: 100%;
+        
+    }
+    #rowpart1{
+        height: 100%;
+        display: flex;
+
+    }
+   .colbox{
+       height: 20%;
+       display: inline;
+       position: relative;
+       top: -20%;
+
+
+   }
+   #design-image{
+       height: 100%;
+   }
 }
