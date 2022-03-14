@@ -130,7 +130,11 @@
     align-content: center;
     position: absolute;
     top: 0%;
+   
+}
 
+.design{
+    width:30%;
 }
 .title{
     display: flex;
