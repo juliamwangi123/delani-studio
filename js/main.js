@@ -1,20 +1,8 @@
 $(document).ready(function(){
-    
-// $(".overlay").hide();
-    $(".innerbox").hover(function(){
-        $(this).fadeTo("slow",0.6)
-        $(".overlay").show();},
-        function(){
-            $(this).fadeTo("slow",1)
-            $(".overlay").hide();
-
-
-        
-
-    });
 
 showToogle();
 showImg();
+hover();
 });
 
 //if th desing image is clicked toggle and show  what we do class
@@ -70,3 +58,12 @@ let showToogle = ()=>{
     });
  }
 
+//hover effect
+let hover = ()=>{
+    let box = $(".innerbox")
+    box.hover(function(){
+        let  text = $(".showProject");
+        $(this).fadeTo("slow", 0.5)
+        text.show()
+    })
+}
