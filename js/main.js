@@ -60,22 +60,69 @@ let showToogle = ()=>{
  }
 
 //hover effect
-let hover = (project)=>{
-    this.project = project
+let hover = ()=>{
 
-    let box = $(".innerbox");
-    let  text = $(".showProject");
-
-
-    box.hover(function(){
-
-        $(this).fadeTo("slow", 0.5)
-        text.toggle()
+    $("#innerbox1").hover(function(){
+    $(this).fadeTo("slow", 0.5)
+    $("#project1").show()
     }, function(){
-
-        $(this).fadeTo("fast", 1)
-        text.hide()
+    $(this).fadeTo("fast", 1)
+    $("#project1").hide()
     })
+    
+    $("#innerbox2").hover(function(){
+        $(this).fadeTo("slow", 0.5)
+        $("#project2").show()
+        }, function(){
+        $(this).fadeTo("fast", 1)
+        $("#project2").hide()
+        });
+
+     $("#innerbox3").hover(function(){
+        $(this).fadeTo("slow", 0.5)
+        $("#project3").show()
+        }, function(){
+        $(this).fadeTo("fast", 1)
+        $("#project3").hide()
+        });
+
+        $("#innerbox4").hover(function(){
+        $(this).fadeTo("slow", 0.5)
+        $("#project4").show()
+        }, function(){
+        $(this).fadeTo("fast", 1)
+        $("#project4").hide()
+        })
+
+        $("#innerbox5").hover(function(){
+            $(this).fadeTo("slow", 0.5)
+            $("#project5").show()
+            }, function(){
+            $(this).fadeTo("fast", 1)
+            $("#project5").hide()
+            })
+        $("#innerbox6").hover(function(){
+         $(this).fadeTo("slow", 0.5)
+         $("#project6").show()
+            }, function(){
+             $(this).fadeTo("fast", 1)
+             $("#project6").hide()
+            })
+            $("#innerbox7").hover(function(){
+                $(this).fadeTo("slow", 0.5)
+                $("#project7").show()
+                }, function(){
+                $(this).fadeTo("fast", 1)
+                $("#project7").hide()
+                })
+                $("#innerbox8").hover(function(){
+                    $(this).fadeTo("slow", 0.5)
+                    $("#project8").show()
+                    }, function(){
+                    $(this).fadeTo("fast", 1)
+                    $("#project8").hide()
+                    })
+            
 }
 
 
