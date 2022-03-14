@@ -20,7 +20,7 @@ showToogle()
 
 //if th desing image is clicked toggle and show  what we do class
 let showToogle = ()=>{
-    $(".design").fadeOut()
+    // $(".design").fadeOut()
     // $(".design2").fadeOut()
     // $(".design3").fadeOut()
     let imgClick= $(".pic")
@@ -28,8 +28,8 @@ let showToogle = ()=>{
 
         let imgId = this.id
         if(imgId ==="design-image"){
-            $(".design1").show();
-            $("#pic1").hide();
+            $("#design").show();
+            $("#design-image").hide();
         }if(imgId === "pic2"){
             $(".design2").show()
             $("#pic2").hide()

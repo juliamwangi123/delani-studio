@@ -114,7 +114,7 @@
 }
 
 #work{
-    height: 40%;
+    height: 45%;
 }
 .part2{
     height: 45%;
@@ -150,6 +150,7 @@
   
   #design, #development, #product{
     display: none;
+    font: 10px;
   }
   
   .title{
