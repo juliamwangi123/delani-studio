@@ -116,7 +116,7 @@
 .part2{
     height: 45%;
 }
-.projects{
+/* .projects{
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -129,10 +129,50 @@
     justify-content: space-around;
     align-content: center;
     position: absolute;
-    top: 0%;
+    top: 20%;
    
 }
-
+.descrption1{
+    width: 20%;
+}
+.imge1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.class1{
+    position: relative;
+} */
+.what-we-do{
+    text-align: center;
+    padding-top: 40px;
+  }
+  .what-we-do .headings{
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  #design, #development, #product{
+    display: none;
+  }
+  #wedo p{
+    font-size: 10px;
+  }
+  .title{
+    font-size: 12px;
+  }
+  
+  
+  
+  
+  
+  
+  
+.overlay{
+    position: absolute;
+    color: black;
+    display: none;
+    
+}
 .design{
     width:30%;
 }
@@ -182,6 +222,7 @@
 .innerbox{
     height: 90%;
     width: 90%;
+
     
 }
 
