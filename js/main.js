@@ -15,7 +15,6 @@ $(document).ready(function(){
 
 showToogle();
 showImg();
-showToogle()
 });
 
 //if th desing image is clicked toggle and show  what we do class
@@ -29,7 +28,8 @@ let showToogle = ()=>{
         let imgId = this.id
         if(imgId ==="design-image"){
             $("#design").show();
-            $("#design-image").hide();},
+            $("#design-image").hide();
+        
 
         }if(imgId === "development-image"){
             $("#development").show()
@@ -40,23 +40,33 @@ let showToogle = ()=>{
             $("#product-image").hide()
            }
 
-    });
     
-};
-
-let showImg =()=>{
-    $(".pic1").hide();
-    $(".design1").click(function(){
-        $("#pic1").show();
-        $(".design1").hide();
-    })
-    $(".design2").click(function(){
-        $("#pic2").toggle();
-        $(".design2").hide()
-    })
-    $(".design3").click(function(){
-        $("#pic3").toggle();
-        $(".design3").hide()
-    })
+    
+});
 }
+
+ let showImg = ()=>{
+
+        let description = $(".para")
+        description.click(function(){
+            let descriptionId = this.id;
+            if(descriptionId === "design"){
+                $("#design-image").show();
+                $("#design").hide()
+
+            }
+            if(descriptionId === "development"){
+                $("#development-image").show();
+                $("#development").hide()
+
+            }
+            if(descriptionId === "product"){
+                $("#product-image").show();
+                $("#product").hide()
+
+            }
+        
+
+    });
+ }
 
